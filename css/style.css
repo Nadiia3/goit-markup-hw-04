@@ -390,7 +390,7 @@ img {
 /* projects */
 
 .projects-list {
-     background: #E5E5E5;
+     background: white;
      display: flex;
      flex-wrap: wrap;
 }
