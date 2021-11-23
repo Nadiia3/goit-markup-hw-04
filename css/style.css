@@ -13,7 +13,7 @@
 
 body {
     font-family: Roboto; 
-    background-color: white;
+    color: #E5E5E5;
 }
 
 .container {
@@ -132,11 +132,27 @@ img {
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 } 
+
+
+.tel-icon {
+  fill: currentColor;
+}
 /* /////////////////////   HERO   /////////// */
  .hero {
+     height: 600px;
+     max-width: 1600px;
+     margin-left: auto;
+     margin-right: auto;
      padding-top: 200px;
      padding-bottom: 200px;
-    background-color: #2F303A;
+     background-color: #2F303A;
+     background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+      ),
+      url(../image/Fon.jpg)
+
  }
  .hero-content {
      text-align: center;
@@ -342,8 +358,6 @@ img {
 
 /* ----------------PORTFOLIO----- */
 .portfolio {
-  background-color: white;
-
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -390,7 +404,7 @@ img {
 /* projects */
 
 .projects-list {
-     background: white;
+     background: #E5E5E5;
      display: flex;
      flex-wrap: wrap;
 }
