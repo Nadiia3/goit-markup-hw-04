@@ -133,9 +133,13 @@ img {
     color: var(--main-text-color);
 } 
 
-
+.envelope-icon {
+  fill: currentColor;
+ 
+}
 .tel-icon {
   fill: currentColor;
+  background-image: url(../image/Icons/vector.svg);
 }
 /* /////////////////////   HERO   /////////// */
  .hero {
@@ -149,9 +153,10 @@ img {
      background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-      ),
-      url(../image/Fon.jpg)
+      rgba(47, 48, 58, 0.4)),
+      url(../image/Fon.jpg);
+     background-size: cover;
+    background-position: center;
 
  }
  .hero-content {
@@ -206,6 +211,40 @@ img {
 .benefits-list{
     display: flex;
 }
+
+.benefits-item::before {
+  display: block;
+  content: " ";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.icon-antenna::before {
+  background-image: url(../image/Icons/antenna.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-clock::before {
+  background-image: url(../image/Icons/clock.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-diagram::before {
+  background-image: url(../image/Icons/diagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-astronaut::before {
+  background-image: url(../image/Icons/astronaut.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 .benefits-item-title {
     width: 270px;
     margin-bottom: 10px;
