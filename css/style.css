@@ -342,7 +342,8 @@ img {
 
 /* ----------------PORTFOLIO----- */
 .portfolio {
-  background: white;
+  background-color: white;
+
   padding-top: 94px;
   padding-bottom: 94px;
 }
