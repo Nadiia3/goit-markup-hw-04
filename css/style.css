@@ -326,7 +326,30 @@ img {
     letter-spacing: 0.03em;
     color: var(--second-title-color);
 }
+.team-social-list{
+  display: flex;
+  justify-content: center;
+}
+.team-social-item {
+  width: 44px;
+  height: 44px;
+}
+.team-social-item +.team-social-item {
+margin-left: 10px;
+}
 
+.team-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+   justify-content: center;
+}
+.team-icon {
+  fill: currentColor;
+}
 .team-work-position {
     font-weight: 400;
     font-size: 16px;
@@ -334,6 +357,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--third-title-color);
+    margin-bottom: 16px;
 }
 
 /* ////////// footer//////////*/
@@ -442,7 +466,7 @@ img {
 /* projects */
 
 .projects-list {
-     background: #E5E5E5;
+     background:white;
      display: flex;
      flex-wrap: wrap;
 }
