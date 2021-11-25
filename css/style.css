@@ -348,7 +348,8 @@ margin-left: 10px;
    justify-content: center;
 }
 .team-icon {
-  fill: currentColor;
+  fill: white;
+
 }
 .team-work-position {
     font-weight: 400;
