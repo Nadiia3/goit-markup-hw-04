@@ -348,7 +348,12 @@ margin-left: 10px;
   justify-content: center;
 }
 .team-icon {
-  fill: #AFB1B8;
+position: absolute;
+left: 25.78%;
+right: 24.22%;
+top: 0%;
+bottom: 0%;
+background: #AFB1B8;
 }
 .team-work-position {
     font-weight: 400;
