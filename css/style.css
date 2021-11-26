@@ -365,7 +365,7 @@ margin-left: 10px;
    cursor: pointer;
 }
 .team-icon {
- fill: white;
+ fill: currentColor;
 }
 .team-icon:hover,
 .team-icon:focus {
