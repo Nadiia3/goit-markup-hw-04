@@ -125,6 +125,12 @@ img {
 .header-tel:focus{
   color: var(--accent-color);
 }
+.envelope-icon {
+  fill: currentColor;
+}
+.tel-icon {
+  fill: currentColor;
+}
 .header-mail, .header-tel {
     font-weight: 500;
     font-size: 14px;
@@ -133,12 +139,7 @@ img {
     color: var(--main-text-color);
 } 
 
-.envelope-icon {
-  fill: currentColor;
-}
-.tel-icon {
-  fill: currentColor;
-}
+
 /* /////////////////////   HERO   /////////// */
  .hero {
      height: 600px;
