@@ -348,11 +348,11 @@ margin-left: 10px;
   justify-content: center;
 }
 .team-icon {
-fill:  #AFB1B8;
+ fill:  #AFB1B8;
 }
 .team-icon:hover,
 .team-icon:focus {
-   color: #ffffff;
+   fill: #ffffff;
    background: var(--accent-color);
 }
 .team-work-position {
