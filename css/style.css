@@ -464,7 +464,49 @@ margin-left: 10px;
   color: var(--accent-color);
 }
 
-
+.social-menu {
+  margin-left: 70px;
+}
+.footer-social-title {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer-social-list {
+  display: flex;
+  max-width: 206px;
+  justify-content: space-between;
+}
+.footer-social-item +.footer-social-item {
+  margin-left: 10px;
+}
+.footer-social-link {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  padding: 12px 12px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  border-color: var(--accent-color);
+  color: var(--main-title-color);
+  cursor: pointer;
+}
+.footer-icon {
+  fill: currentColor;
+}
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+}
 /* ----------------PORTFOLIO----- */
 .portfolio {
   padding-top: 94px;
