@@ -496,7 +496,7 @@ margin-left: 10px;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
- background: var(--accent-color);
+  background: var(--accent-color);
   color: var(--main-title-color);
   cursor: pointer;
 }
