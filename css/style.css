@@ -347,14 +347,18 @@ margin-left: 10px;
   align-items: center;
   justify-content: center;
 }
-.team-icon {
- fill:  #AFB1B8;
-}
 .team-link:hover,
 .team-link:focus {
    fill: #ffffff;
    background: var(--accent-color);
 }
+.team-icon {
+ fill:  #AFB1B8;
+}
+.team-icon:hover,
+.team-icon:focus {
+    fill: var(--main-title-color);
+  }
 .team-work-position {
     font-weight: 400;
     font-size: 16px;
