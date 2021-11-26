@@ -406,6 +406,10 @@ margin-left: 10px;
 .client-icon {
   fill: currentColor;
 }
+.client-icon:hover,
+.client-icon {
+  fill: var(--main-title-color);
+}
 /* ////////// footer//////////*/
 .footer {
   padding-top: 60px;
