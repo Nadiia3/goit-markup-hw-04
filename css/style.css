@@ -351,7 +351,7 @@ margin-left: 10px;
 .team-link {
    width: 44px;
   height: 44px;
-  background: #afb1af;
+  background: #FFFFFF;
   border-radius: 50%;
   display: inline-block;
   align-items: center;
@@ -365,14 +365,27 @@ margin-left: 10px;
    cursor: pointer;
 }
 .team-icon {
- fill: currentColor;
+ fill: #AFB1B8;
 }
 .team-icon:hover,
 .team-icon:focus {
     fill: var(--main-title-color);
   }
-
-
+/* //////////////CLIENTS//////////////// */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-title {
+  margin-bottom: 50px;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 1.17;
+ text-align: center;
+ letter-spacing: 0.03em;
+ color: var(--second-title-color);
+}
 /* ////////// footer//////////*/
 .footer {
   padding-top: 60px;
