@@ -350,6 +350,11 @@ margin-left: 10px;
 .team-icon {
 fill:  #AFB1B8;
 }
+.team-icon:hover,
+.team-icon:focus {
+   color: #ffffff;
+   background: var(--accent-color);
+}
 .team-work-position {
     font-weight: 400;
     font-size: 16px;
