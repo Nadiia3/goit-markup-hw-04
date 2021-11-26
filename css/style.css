@@ -349,9 +349,10 @@ margin-left: 10px;
 }
 
 .team-link {
-   width: 44px;
+  width: 44px;
   height: 44px;
   background: white;
+  color: #AFB1B8;
   border-radius:  50%;
   display: inline-block;
   align-items: center;
@@ -365,7 +366,7 @@ margin-left: 10px;
    cursor: pointer;
 }
 .team-icon {
- fill: #AFB1B8;
+ fill: currentColor;
 }
 
 /* //////////////CLIENTS//////////////// */
