@@ -386,6 +386,24 @@ margin-left: 10px;
  letter-spacing: 0.03em;
  color: var(--second-title-color);
 }
+.client-list {
+  display: flex;
+  justify-content: space-between;
+}
+.client-item +.client-item {
+  margin-left: 30px;
+}
+.client-link {
+  display: inline-block;
+  color: #AFB1B8;
+  border: 1px solid #AFB1B8;
+}
+.client-link:hover,
+.client-link:focus {
+ color: var(--accent-color);
+ border: 1px solid var(--accent-color);
+
+}
 /* ////////// footer//////////*/
 .footer {
   padding-top: 60px;
