@@ -350,8 +350,8 @@ margin-left: 10px;
 .team-icon {
  fill:  #AFB1B8;
 }
-.team-icon:hover,
-.team-icon:focus {
+.team-link:hover,
+.team-link:focus {
    fill: #ffffff;
    background: var(--accent-color);
 }
