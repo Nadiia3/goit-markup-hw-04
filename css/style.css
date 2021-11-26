@@ -351,7 +351,7 @@ margin-left: 10px;
 .team-link {
   width: 44px;
   height: 44px;
-  background: white;
+  background: black;
   color: #AFB1B8;
   border-radius:  50%;
   display: inline-block;
@@ -359,6 +359,7 @@ margin-left: 10px;
   justify-content: center;
   padding: 12px 12px;
 }
+
 .team-link:hover,
 .team-link:focus {
    fill: #ffffff;
