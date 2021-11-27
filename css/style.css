@@ -64,15 +64,15 @@ img {
 .header-flex {
      display: flex;
      align-items: center;
-    justify-content: center;
+     justify-content: center;
 }  
 .header-list {
      display: flex;
+     align-items: center;
      margin-left: 93px;
 }
 .header-navigation{
-    display: flex;
-    align-items: center;
+   display: flex;
 }
 .header-list .header-item + .header-item {
   margin-left: 50px;
@@ -127,16 +127,18 @@ img {
 }
 .envelope-icon {
   fill: currentColor;
+  margin-right: 10px;
 
-}
-.envelope-icon +.header-mail {
-  margin-left: 10px;
 }
 .tel-icon {
   fill: currentColor;
-  margin-left: 10px;
+  margin-right: 10px;
 }
-
+.header-mail,
+.header-tel {
+display: flex;
+align-items: center;
+}
 .header-mail, .header-tel {
     font-weight: 500;
     font-size: 14px;
