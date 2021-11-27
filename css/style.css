@@ -565,7 +565,7 @@ margin-left: 10px;
 /* projects */
 
 .projects-list {
- background:white;
+ 
  display: flex;
  flex-wrap: wrap;
 }
